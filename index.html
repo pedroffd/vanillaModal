@@ -17,7 +17,7 @@
   </head>
 
   <body>
-     <ul class="form" >
+    <ul class="form" >
       <h2 class="title-menu">SELECIONE O ITEM DE SEU INTERESSE</h2>
       <!--Botões da lista de modais-->
       <li class="grow">
@@ -35,7 +35,13 @@
           <i class="material-icons"> fingerprint </i>Item 3
         </button>
       </li>
+       <li class="grow">
+        <button data-modal="modal4" class="modal-open">
+          <i class="material-icons"> polymer </i>Item 4
+        </button>
+      </li>
     </ul>
+    
 
     <!--Conteúdo dos modais-->
     <div id="modal1" class="modal">
@@ -99,7 +105,6 @@
             here
           </p>
         </div>
-
         <div class="modal-footer">
           <h3>Rodapé do Modal 3</h3>
           <button class="icon modal-close">
@@ -108,6 +113,32 @@
         </div>
       </div>
     </div>
+
+
+   <div id="modal4" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Cabeçalho Modal 4</h2>
+        </div>
+        <div class="modal-body">
+          <p>Where can I get some?</p>
+          <p>
+            There are many variations of passages of Lorem Ipsum available,
+             but the majority have suffered alteration in some form, by 
+             injected humour, or randomised words which don't look even 
+             slightly believable. If you are going to use a passage of Lorem 
+             Ipsum, you need to 
+          </p>
+        </div>
+        <div class="modal-footer">
+          <h3>Rodapé do Modal 4</h3>
+          <button class="icon modal-close">
+            <i class="material-icons">close</i>
+          </button>
+        </div>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
