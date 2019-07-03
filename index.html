@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="styles/style.css" rel="stylesheet" />
+    <title>Lista de Modais</title>
+  </head>
+
+  <body>
+    <ul class="form">
+      <h2 class="title-menu">SELECIONE O ITEM DE SEU INTERESSE</h2>
+      <!--Botões da lista de modais-->
+      <li>
+        <button data-modal="modal1" class="modal-open">
+          <i class="material-icons"> wifi </i>Item 1
+        </button>
+      </li>
+      <li>
+        <button data-modal="modal2" class="modal-open">
+          <i class="material-icons"> insert_drive_file </i>Item 2
+        </button>
+      </li>
+      <li>
+        <button data-modal="modal3" class="modal-open">
+          <i class="material-icons"> fingerprint </i>Item 3
+        </button>
+      </li>
+    </ul>
+
+    <!--Conteúdo dos modais-->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Cabeçalho Modal 1</h2>
+        </div>
+        <div class="modal-body">
+          <p>What is Lorem Ipsum?</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+          </p>
+        </div>
+        <div class="modal-footer">
+          <h3>Rodapé do Modal 1</h3>
+          <button class="icon modal-close">
+            <i class="material-icons">close</i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Cabeçalho Modal 2</h2>
+        </div>
+        <div class="modal-body">
+          <p>Where does it come from?</p>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the mor
+          </p>
+        </div>
+        <div class="modal-footer">
+          <h3>Rodapé do Modal 2</h3>
+          <button class="icon modal-close">
+            <i class="material-icons">close</i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Cabeçalho Modal 3</h2>
+        </div>
+        <div class="modal-body">
+          <p>Why do we use it?</p>
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here
+          </p>
+        </div>
+
+        <div class="modal-footer">
+          <h3>Rodapé do Modal 3</h3>
+          <button class="icon modal-close">
+            <i class="material-icons">close</i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
